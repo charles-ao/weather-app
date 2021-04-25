@@ -28,7 +28,7 @@ $(document).ready(function () {
     }
 
     function getWeather(lat, lon) {
-        fetch( `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${key}`
+        fetch( `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${key}`
         ).then(function(response){
             return response.json();
         }).then(function (data) {
