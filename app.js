@@ -3,7 +3,7 @@ $(document).ready(function () {
     setTimeout(() => {
         $('.wrapper').show();
         $('.gif').hide();
-    }, 2000);
+    }, 1500);
 
     
 
